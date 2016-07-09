@@ -22,7 +22,6 @@ public class EditTaskDialogFragment extends DialogFragment {
     private EditText mTaskName;
     private EditText mDueDate;
     private Spinner mPriority;
-    private String[] priorityItems = new String[]{"P1", "P2", "P3"};
 
     public interface EditTaskDialogListener {
         void onFinishInputDialog(Todo newTask);
