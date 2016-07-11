@@ -50,7 +50,9 @@
         android:layout_height="wrap_content"
         android:inputType="date"
         android:ems="10"
-        android:id="@+id/etDueDateDialog" />
+        android:id="@+id/etDueDateDialog"
+        android:focusable="false"
+        android:focusableInTouchMode="false" />
 
     <Space
         android:layout_width="match_parent"
